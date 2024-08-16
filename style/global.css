@@ -5,6 +5,8 @@
 }
 
 :root {
+
+  /* ---------- CORES ---------- */
   --red: #E3646E;
   --purple: #BB72E9;
   --blue: #3996DB;
@@ -18,5 +20,17 @@
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
 
-  
+  /* ---------- TIPOGRAFIA ---------- */
+  --asap-font: "Asap", sans-serif;
+  --inconsolata-font: "Inconsolata", monospace;
+  --maven-pro-font: "Maven Pro", sans-serif;
+
+  --title-lg: 700 56px/120% var(--asap-font);
+  --title-md: 700 24px/120% var(--asap-font);
+  --title-sm: 700 16px/120% var(--asap-font);
+
+  --sub-title: 400 20px/120% var(--inconsolata-font);
+
+  --text-md: 400 16px/140% var(--maven-pro-font);
+  --text-sm: 400 14px/140% var(--maven-pro-font);
 }
