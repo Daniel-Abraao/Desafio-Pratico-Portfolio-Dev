@@ -1,0 +1,114 @@
+#home {
+
+  background-image: url(../assets/images/Background_Intro.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#profile {
+  padding: 120px 163px 163px 163px;
+  text-align: center;
+
+  
+}
+
+#profile-card {
+  h2 {
+    margin-top: 56px;
+    font: var(--sub-title);
+    color: var(--gray-500);
+
+    span {
+      color: var(--salmon);
+    }
+  }
+
+  h1 {
+    font: var(--title-lg);
+    color: var(--gray-600);
+  }
+
+  p {
+    margin-top: 20px;
+    font: var(--text-sm);
+    color: var(--gray-400);
+  }
+}
+
+.profile-card-avatar {
+  display: flex;
+  justify-content: center;
+
+  div {
+    display: inline-block;
+    position: relative;
+  }
+
+  img {
+    padding: 5px;
+    width: 90px;
+    border: 3px solid var(--salmon);
+    border-radius: 50%;  
+      
+  }
+
+  span {/* Intro */
+
+    width: 1366px;
+    height: 750px;
+    
+    background: url(image.png);
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+    position: absolute;
+    background-image: url(../assets/icons/Code.png);
+    width: 35px;
+    height: 35px;
+    bottom: 0;
+    right: 0;
+  }
+  
+}
+
+#profile-skils {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.skil-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
+  padding: 8px 16px;
+  border-radius: 999px;
+  background-color: var(--gray-300);
+
+  p {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+  
+}
+
+.double-down img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: calc(50% - 32px/2);
+  top: 661px;
+}
+
+
+
