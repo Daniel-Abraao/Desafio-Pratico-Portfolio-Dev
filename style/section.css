@@ -1,3 +1,4 @@
+/*========== HOME ============= */
 #home {
 
   background-image: url(../assets/images/Background_Intro.png);
@@ -19,23 +20,14 @@
 #profile-card {
   h2 {
     margin-top: 56px;
-    font: var(--sub-title);
-    color: var(--gray-500);
 
     span {
       color: var(--salmon);
     }
   }
 
-  h1 {
-    font: var(--title-lg);
-    color: var(--gray-600);
-  }
-
   p {
     margin-top: 20px;
-    font: var(--text-sm);
-    color: var(--gray-400);
   }
 }
 
@@ -96,8 +88,7 @@
   background-color: var(--gray-300);
 
   p {
-    font: var(--text-md);
-    color: var(--gray-500);
+    text-wrap: nowrap;
   }
   
 }
@@ -110,5 +101,9 @@
   top: 661px;
 }
 
+/*===================== PROJECTS ======================*/
 
-
+  #projects {
+    background-color: #16181D;
+    padding: 72px 120px;
+  }
