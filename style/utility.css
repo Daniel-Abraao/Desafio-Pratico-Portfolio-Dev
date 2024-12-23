@@ -1,6 +1,18 @@
+/*=========== CLASSES DE TIPOGRAFIA ==========*/
+
 .sub-title {
   font: var(--sub-title);
   color: var(--gray-500);
+}
+
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-600);
 }
 
 .title-lg {
@@ -16,4 +28,12 @@
 .text-md {
   font: var(--text-md);
   color: var(--gray-500);
+}
+
+
+
+/*============ CLASSES DE COR ==========*/
+
+.color-salmon {
+  color: var(--salmon);
 }

@@ -20,10 +20,6 @@
 #profile-card {
   h2 {
     margin-top: 56px;
-
-    span {
-      color: var(--salmon);
-    }
   }
 
   p {
@@ -105,5 +101,38 @@
 
   #projects {
     background-color: #16181D;
-    padding: 72px 120px;
+    padding-block: 72px;
+
+
+    .projects-title {
+      text-align: center;
+      h2 {
+        margin-bottom: 56px;
+      }
+    }
+
+    .projects-cards {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, 330px);
+      justify-content: center;
+    }
+
+    .projects-card {
+      border-radius: 12px;
+      background-color: var(--gray-300);
+      padding-bottom: 21px;
+
+      img {
+        width: 100%;
+        padding: 12px;
+        border-radius: 20px;
+      }
+      h2, p {
+        padding-inline: 12px;
+      }
+
+    }
+
   }
+
