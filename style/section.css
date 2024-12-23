@@ -106,7 +106,9 @@
 
     .projects-title {
       text-align: center;
+
       h2 {
+        margin-top: 8px;
         margin-bottom: 56px;
       }
     }
