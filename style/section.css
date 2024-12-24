@@ -130,8 +130,14 @@
         padding: 12px;
         border-radius: 20px;
       }
+
+      h2 {
+        margin-bottom: 8px;
+      }
+
       h2, p {
         padding-inline: 12px;
+        margin-bottom: 5px;
       }
 
     }

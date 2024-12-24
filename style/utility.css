@@ -30,6 +30,11 @@
   color: var(--gray-500);
 }
 
+.title-gap {
+  margin-top: 8px;
+  margin-bottom: 56px;
+}
+
 
 
 /*============ CLASSES DE COR ==========*/
