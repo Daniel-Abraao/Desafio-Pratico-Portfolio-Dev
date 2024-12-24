@@ -148,43 +148,111 @@
 
   }
 
-  #services{
-    background-color: var(--gray-100);
-    padding-block: 88px 120px ;
+/*============= SERVICE ================*/
+
+#services{
+  background-color: var(--gray-100);
+  padding-block: 88px 120px ;
 
 
-    .services-title {
-      text-align: center;
+  .services-title {
+    text-align: center;
 
-      h2 {
-        margin-top: 8px;
-        margin-bottom: 56px;
-      }
+    h2 {
+      margin-top: 8px;
+      margin-bottom: 56px;
+    }
+  }
+
+  .services-cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 330px);
+    justify-content: center;
+  }
+
+  .services-card {
+    border-radius: 12px;
+    background-color: var(--gray-300);
+    padding: 20px;
+
+    img {
+      width: 44px;
+      height: 33px;
+      margin-bottom: 20px;
     }
 
-    .services-cards {
-      display: grid;
-      gap: 20px;
-      grid-template-columns: repeat(3, 330px);
-      justify-content: center;
-    }
-
-    .services-card {
-      border-radius: 12px;
-      background-color: var(--gray-300);
-      padding: 20px;
-
-      img {
-        width: 44px;
-        height: 33px;
-        margin-bottom: 20px;
-      }
-
-      h2 {
-        margin-bottom: 8px;
-      }
-
+    h2 {
+      margin-bottom: 8px;
     }
 
   }
+}
+
+/*==================== CONTACT ===============*/
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  
+  .contact-container {
+    padding-top: 128px;
+  }
+  .contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin-bottom: 8px;
+    }
+    p {
+      margin-bottom: 48px;
+    }
+  }
+
+  .contact-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    .contact-list {
+      display: flex;
+      align-items: center;
+      width: 400px;
+      height: 68px;
+      padding: 20px;
+      border-radius: 8px;
+      position: relative;
+      background-color: var(--gray-300);
+
+      img:first-of-type {
+        width: 23px;
+        margin-right: 12px;
+        color: var(--gray-300);
+      }
+
+      p {
+        color: var(--gray-500);
+      }
+
+      a {
+        position: absolute;
+        right: 0px;
+        margin-right: 10px;
+
+        img {
+          height: 11px;
+        }
+      }
+    }
+  }
+}
+
 

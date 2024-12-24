@@ -42,3 +42,7 @@
 .color-salmon {
   color: var(--salmon);
 }
+
+.color-purple {
+  color: var(--purple);
+}
