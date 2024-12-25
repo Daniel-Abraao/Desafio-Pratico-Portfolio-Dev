@@ -6,6 +6,10 @@
   color: #E2E4E9;
 }
 
+body { 
+  overflow-x: hidden; 
+}
+
 :root {
 
   /* ---------- CORES ---------- */
